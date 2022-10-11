@@ -1,10 +1,11 @@
 terraform {
-  required_version = ">= 2.27.0"
+  required_version = ">= 1.3.2"
 }
 
 provider "aws" {
-  
+
 }
+
 
 module "server" {
   source = "./server"
